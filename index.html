@@ -1,345 +1,644 @@
 <!DOCTYPE html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Md. Bayezid Alam | Data Analyst | Python Developer</title>
-        <meta name="description" content="">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="assets/css/reesume-icons.css" rel="stylesheet">
-        <link rel="stylesheet" href="assets/css/resume.min.css">
-        <link rel="stylesheet" href="assets/css/custom.css">
-        
-    </head>
-    <body>
-        
-        <nav class="navbar navbar-expand-lg navbar-dark bg-secondary fixed-top" id="sideNav">
-            <a class="navbar-brand" href="/">
-                <span class="d-block d-lg-none">MD BAYEZID ALAM</span>
-                <span class="d-none d-lg-block">
-                    <img class="img-fluid img-profile rounded-circle mx-auto mb-2" src="assets/images/me.jpg" alt="BAYEZID's Photo" />
-                </span>
-            </a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarBay" aria-controls="navbarBay" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarBay">
-                <ul class="navbar-nav">
-                    <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#experience">Experience</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#education">Education</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#skills">Skills</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#technology">Technology</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#certificates">Certificates</a>
-                    <li class="nav-item"><a class="nav-link" href="#interests">Interests</a></li>
-                    <li class="nav-item"><a class="nav-link" href="#contacts">Contacts</a></li>
-                    
-                    <li class="nav-item mt-5">Download My CV<a class="nav-link" href="assets/cv/bayezid_CV.pdf" target="_blank">Bayezid's CV</a></li>
-                    
-                </ul>
-            </div>
+<html lang="en" class="scroll-smooth">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>Md. Bayezid Alam — Senior Data Analyst &amp; BI Engineer | Power BI · SQL · Python · Django</title>
+<meta name="description" content="Md. Bayezid Alam is a Senior Data Analyst &amp; Business Intelligence Engineer with 15+ years in telecom, financial analytics, SQL Server, Power BI, Python and Django. Open to Senior Data Analyst, BI Engineer and Django Developer roles in Dhaka or remote." />
+<meta name="keywords" content="Bayezid Alam, Senior Data Analyst Dhaka, Business Intelligence Engineer, Power BI Developer Bangladesh, SQL Server Developer, Financial Analytics, Python Automation, Django Developer, Telecom Data Analyst" />
+<meta name="author" content="Md. Bayezid Alam" />
+<meta name="robots" content="index, follow" />
+<link rel="canonical" href="https://bayezidece.github.io/" />
+
+<!-- Open Graph -->
+<meta property="og:type" content="profile" />
+<meta property="og:url" content="https://bayezidece.github.io/" />
+<meta property="og:site_name" content="Md. Bayezid Alam — Portfolio" />
+<meta property="og:title" content="Md. Bayezid Alam — Senior Data Analyst &amp; BI Engineer" />
+<meta property="og:description" content="15+ years in telecom, business intelligence and financial analytics. Power BI, SQL Server, Python and Django. Open to new roles." />
+<meta property="og:image" content="https://bayezidece.github.io/assets/images/og-image.jpg" />
+<meta property="og:locale" content="en_US" />
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image" />
+<meta name="twitter:title" content="Md. Bayezid Alam — Senior Data Analyst &amp; BI Engineer" />
+<meta name="twitter:description" content="15+ years in telecom, business intelligence and financial analytics. Power BI, SQL Server, Python and Django. Open to new roles." />
+<meta name="twitter:image" content="https://bayezidece.github.io/assets/images/og-image.jpg" />
+
+<meta name="theme-color" content="#1F5C73" />
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='10' fill='%231F5C73'/%3E%3Ctext x='32' y='42' font-family='Georgia,serif' font-size='26' fill='%23F6F5F2' text-anchor='middle'%3EBA%3C/text%3E%3C/svg%3E" />
+
+<!-- Structured data: helps Google show a rich Person / job-title result -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Md. Bayezid Alam",
+  "jobTitle": "Senior Data Analyst, Business Intelligence Engineer",
+  "description": "Senior Data Analyst and Business Intelligence Engineer with 15+ years in telecom, specializing in Power BI, SQL Server, Python and Django.",
+  "url": "https://bayezidece.github.io/",
+  "image": "https://bayezidece.github.io/assets/images/og-image.jpg",
+  "email": "mailto:bayezidwm@gmail.com",
+  "telephone": "+880-1730-330015",
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Dhaka",
+    "addressCountry": "BD"
+  },
+  "worksFor": {
+    "@type": "Organization",
+    "name": "NovoTel Limited"
+  },
+  "alumniOf": {
+    "@type": "CollegeOrUniversity",
+    "name": "Presidency University, Dhaka"
+  },
+  "knowsAbout": ["Power BI", "SQL Server", "Python", "Django", "Business Intelligence", "Financial Analytics", "Data Analysis"],
+  "sameAs": ["https://github.com/bayezidece", "https://www.linkedin.com/in/bayezid/"]
+}
+</script>
+
+<script src="https://cdn.tailwindcss.com"></script>
+<script>
+  tailwind.config = {
+    theme: {
+      extend: {
+        colors: {
+          ink:    '#1C232D',
+          body:   '#33383F',
+          muted:  '#6B7280',
+          accent: '#1F5C73',
+          accent2:'#C9D6DA',
+          panel:  '#F6F5F2',
+          rule:   '#D8D6CF',
+        },
+        fontFamily: {
+          serif: ['Spectral', 'serif'],
+          sans:  ['Inter', 'sans-serif'],
+        }
+      }
+    }
+  }
+</script>
+
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;0,700;1,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+<style>
+  html { scroll-behavior: smooth; }
+  body { -webkit-font-smoothing: antialiased; }
+
+  .eyebrow {
+    font-family: 'Inter', sans-serif;
+    font-size: 0.72rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+  }
+
+  .bar-fill { width: 0%; transition: width 1s cubic-bezier(.2,.7,.3,1); }
+  .bar-fill.filled { width: var(--w); }
+
+  .reveal { opacity: 0; transform: translateY(12px); transition: opacity .6s ease, transform .6s ease; }
+  .reveal.in { opacity: 1; transform: translateY(0); }
+
+  @media (prefers-reduced-motion: reduce) {
+    .bar-fill, .reveal { transition: none !important; opacity: 1 !important; transform: none !important; }
+  }
+
+  ::selection { background: #C9D6DA; color: #1C232D; }
+
+  a:focus-visible, button:focus-visible {
+    outline: 2px solid #1F5C73;
+    outline-offset: 3px;
+  }
+</style>
+</head>
+
+<body class="bg-white text-ink font-sans">
+
+  <a href="#top" class="sr-only focus:not-sr-only focus:fixed focus:z-[999] focus:top-3 focus:left-3 focus:bg-accent focus:text-white focus:px-4 focus:py-2 focus:rounded-full">
+    Skip to content
+  </a>
+
+  <!-- ============ NAV ============ -->
+  <header class="fixed top-0 left-0 w-full z-50 bg-white/95 backdrop-blur border-b border-rule">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="flex items-center justify-between h-16">
+        <a href="#top" class="font-serif text-lg font-semibold text-ink">
+          Md. Bayezid Alam
+        </a>
+
+        <nav class="hidden md:flex items-center gap-8 eyebrow text-muted">
+          <a href="#about" class="hover:text-accent transition">About</a>
+          <a href="#experience" class="hover:text-accent transition">Experience</a>
+          <a href="#projects" class="hover:text-accent transition">Projects</a>
+          <a href="#skills" class="hover:text-accent transition">Skills</a>
+          <a href="#education" class="hover:text-accent transition">Education</a>
+          <a href="#contact" class="px-4 py-2 rounded-full bg-accent text-white hover:bg-[#18485B] transition">Contact</a>
         </nav>
-        <!-- Navber Section ends-->
-        
 
-        <!-- About-->
-    <section class="resume" id="about">
-        <div class="resume-content">
-            <h2 class="mt-5 text-uppercase mycolor">
-                <span class="text-secondary">Md.</span> 
-                Bayezid
-                <span class="text-secondary">ALam</span>
-            </h2>
-            <hr>
-            <hr>
-            <div class="mb-5">
-                <span class="text-primary text-uppercase">Data Analyst || DEVELOPER || B.Sc in EEE</span>
-                                                         
+        <button id="menuBtn" class="md:hidden text-ink text-xl" aria-label="Toggle menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+
+    <div id="mobileMenu" class="hidden md:hidden bg-white border-t border-rule">
+      <div class="flex flex-col px-6 py-6 gap-5 eyebrow text-muted">
+        <a href="#about">About</a>
+        <a href="#experience">Experience</a>
+        <a href="#projects">Projects</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact" class="text-accent">Contact</a>
+      </div>
+    </div>
+  </header>
+
+  <main>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="pt-32 pb-20 bg-white">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-[1.3fr_1fr] gap-16 items-start">
+
+        <div>
+          <p class="inline-flex items-center gap-2 eyebrow text-accent border border-accent2 bg-accent2/30 rounded-full px-3 py-1.5">
+            <span class="w-1.5 h-1.5 rounded-full bg-accent"></span> Open to Senior Data Analyst &amp; BI Engineer roles
+          </p>
+
+          <h1 class="mt-7 font-serif text-5xl sm:text-6xl leading-[1.08] font-semibold text-ink">
+            Md. Bayezid Alam
+          </h1>
+
+          <p class="mt-3 text-xl text-accent font-serif italic">
+            Senior Data Analyst &mdash; Business Intelligence Engineer
+          </p>
+
+          <p class="mt-7 text-lg leading-8 text-body max-w-xl">
+            15+ years turning telecom and business data into decisions —
+            building Power BI dashboards, optimizing SQL Server reporting,
+            automating processes with Python, and developing Django-based
+            business applications at NovoTel Limited.
+          </p>
+
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a href="assets/resume/Bayezid_Resume.pdf"
+               class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-accent text-white font-semibold hover:bg-[#18485B] transition">
+              <i class="fa-solid fa-arrow-down"></i> Download Résumé
+            </a>
+            <a href="#experience"
+               class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-rule text-ink hover:border-accent hover:text-accent transition">
+              View Experience
+            </a>
+          </div>
+
+          <div class="flex gap-5 mt-9 text-lg text-muted">
+            <a href="https://bayezidece.github.io/" target="_blank" rel="noopener" aria-label="Portfolio website" class="hover:text-accent transition"><i class="fa-solid fa-globe"></i></a>
+            <a href="https://github.com/bayezidece" target="_blank" rel="noopener" aria-label="GitHub" class="hover:text-accent transition"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/bayezid/" target="_blank" rel="noopener" aria-label="LinkedIn" class="hover:text-accent transition"><i class="fab fa-linkedin"></i></a>
+            <a href="mailto:bayezidwm@gmail.com" aria-label="Email" class="hover:text-accent transition"><i class="fa-solid fa-envelope"></i></a>
+            <a href="tel:+8801730330015" aria-label="Phone" class="hover:text-accent transition"><i class="fa-solid fa-phone"></i></a>
+          </div>
+        </div>
+
+        <div class="rounded-2xl bg-panel border border-rule p-8">
+          <p class="eyebrow text-accent">Career Highlights</p>
+          <div class="mt-6 grid grid-cols-2 gap-6">
+            <div>
+              <div class="text-3xl font-serif font-semibold text-ink">15+</div>
+              <div class="mt-1 text-xs text-muted">Years Experience</div>
             </div>
-            
-            <p class="mb-5 my-letter-spacing line-height">
-                Specialist in Data Analysis, Data Engineering, Data Inspecting, Data Cleansing, Data Modelling, Web Application Development, Process Improvement and Maximizing profit for the organization using Python, Power BI and Excel and others tools.
+            <div>
+              <div class="text-3xl font-serif font-semibold text-ink">50+</div>
+              <div class="mt-1 text-xs text-muted">BI Dashboards</div>
+            </div>
+            <div>
+              <div class="text-3xl font-serif font-semibold text-ink">100+</div>
+              <div class="mt-1 text-xs text-muted">Automation Solutions</div>
+            </div>
+            <div>
+              <div class="text-3xl font-serif font-semibold text-ink">M+</div>
+              <div class="mt-1 text-xs text-muted">Records Analyzed</div>
+            </div>
+          </div>
+          <div class="mt-7 pt-6 border-t border-rule text-sm text-muted">
+            Dhaka, Bangladesh &nbsp;·&nbsp; NovoTel Limited since 2011
+          </div>
+        </div>
 
-                My Problem Solving, Handling Multi-tasking ability, Creativity, organized and honesty always help and develop a new process for the organization.
+      </div>
+    </div>
+  </section>
 
-                I am always energetic and enthusiastic to learn new knowledge which help adding me as new skills in my career.
+  <!-- ============ NOW STRIP ============ -->
+  <section class="bg-accent text-white">
+    <div class="max-w-6xl mx-auto px-6 py-3.5 flex flex-wrap items-center gap-x-8 gap-y-1 eyebrow">
+      <span>● Currently</span>
+      <span class="font-normal normal-case">Manager, Data Analyst — NovoTel Limited</span>
+      <span class="font-normal normal-case hidden sm:inline text-white/70">Feb 2011 – Present</span>
+    </div>
+  </section>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="bg-white py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-[1.3fr_1fr] gap-16">
+
+        <div class="reveal">
+          <p class="eyebrow text-accent">About</p>
+          <h2 class="mt-3 font-serif text-4xl font-semibold text-ink">Professional Summary</h2>
+
+          <p class="mt-6 text-lg leading-8 text-body">
+            Senior Data Analyst with 15+ years across business intelligence,
+            data analytics, SQL development, reporting automation, and
+            financial analytics in the telecommunications industry. Proven
+            expertise in developing interactive Power BI dashboards,
+            optimizing SQL Server databases, automating reports, cleansing
+            and managing large datasets, and building Django-based business
+            applications &mdash; transforming complex data into actionable
+            insights that enhance operational efficiency and enable
+            data-driven decision-making.
+          </p>
+
+          <p class="mt-10 eyebrow text-muted">Core Competencies</p>
+          <div class="mt-4 flex flex-wrap gap-2.5">
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Business Intelligence &amp; Analytics</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Power BI Dashboard Development</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">SQL Development &amp; Query Optimization</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Financial Analytics</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Data Modelling</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">ETL &amp; Data Transformation</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Reporting &amp; Process Automation</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">KPI Reporting</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Revenue Leakage Analysis</span>
+            <span class="text-sm px-3 py-1.5 rounded-full bg-panel border border-rule">Django Web Applications</span>
+          </div>
+        </div>
+
+        <div class="reveal space-y-6">
+          <div class="rounded-2xl bg-panel border border-rule p-8">
+            <p class="eyebrow text-accent">Contact</p>
+            <dl class="mt-5 space-y-4 text-sm">
+              <div class="flex justify-between border-b border-rule pb-3">
+                <dt class="text-muted">Location</dt><dd>Dhaka, Bangladesh</dd>
+              </div>
+              <div class="flex justify-between border-b border-rule pb-3">
+                <dt class="text-muted">Email</dt><dd class="text-right">bayezidwm@gmail.com</dd>
+              </div>
+              <div class="flex justify-between border-b border-rule pb-3">
+                <dt class="text-muted">Phone</dt><dd class="text-right">+880 1730-330015</dd>
+              </div>
+              <div class="flex justify-between border-b border-rule pb-3">
+                <dt class="text-muted">LinkedIn</dt><dd><a href="https://www.linkedin.com/in/bayezid/" target="_blank" rel="noopener" class="hover:text-accent">/in/bayezid</a></dd>
+              </div>
+              <div class="flex justify-between border-b border-rule pb-3">
+                <dt class="text-muted">GitHub</dt><dd><a href="https://github.com/bayezidece" target="_blank" rel="noopener" class="hover:text-accent">github.com/bayezidece</a></dd>
+              </div>
+              <div class="flex justify-between">
+                <dt class="text-muted">Website</dt><dd><a href="https://bayezidece.github.io/" target="_blank" rel="noopener" class="hover:text-accent">bayezidece.github.io</a></dd>
+              </div>
+            </dl>
+          </div>
+
+          <div class="rounded-2xl bg-white border border-rule p-8">
+            <p class="eyebrow text-accent">Languages</p>
+            <ul class="mt-5 space-y-3 text-sm">
+              <li class="flex justify-between"><span>Bangla</span><span class="text-muted">Native</span></li>
+              <li class="flex justify-between"><span>English</span><span class="text-muted">Professional</span></li>
+            </ul>
+          </div>
+
+          <div class="rounded-2xl bg-white border border-rule p-8">
+            <p class="eyebrow text-accent">Continuous Learning</p>
+            <p class="mt-4 text-sm text-body">Generative AI, Machine Learning, Cloud Technologies, Advanced Power BI, Advanced SQL.</p>
+          </div>
+
+          <div class="rounded-2xl bg-white border border-rule p-8">
+            <p class="eyebrow text-accent">Off the Clock</p>
+            <p class="mt-4 text-sm text-body">Reading, travelling, sports.</p>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EXPERIENCE ============ -->
+  <section id="experience" class="bg-panel py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="reveal max-w-2xl">
+        <p class="eyebrow text-accent">Experience</p>
+        <h2 class="mt-3 font-serif text-4xl font-semibold text-ink">Professional Experience</h2>
+      </div>
+
+      <div class="mt-14 space-y-8">
+
+        <div class="reveal bg-white border border-rule rounded-2xl p-8 sm:p-10">
+          <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+            <h3 class="font-serif text-2xl font-semibold text-ink">Manager, Data Analyst</h3>
+            <p class="eyebrow text-accent">Feb 2011 &ndash; Present</p>
+          </div>
+          <p class="mt-1 text-muted italic">NovoTel Limited, Dhaka, Bangladesh</p>
+          <ul class="mt-6 space-y-3 text-body leading-7">
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Developing interactive Power BI dashboards and optimizing SQL Server reporting.</li>
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Automating daily reporting operations using Python.</li>
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Developing Django-based business applications for internal operations.</li>
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Analyzing large telecom datasets, plus routing and dispute management.</li>
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Monitoring and minimizing revenue leakage, with consistent follow-up.</li>
+          </ul>
+
+          <div class="mt-6 pt-6 border-t border-rule">
+            <p class="font-semibold text-ink italic">Project &mdash; Brilliant Connect App</p>
+            <p class="mt-2 text-body leading-7">
+              Delivered Churn User, User Profile, Agent, Top&nbsp;N User, Traffic,
+              Geographical, and Regional reports using SQL &amp; Power BI, feeding
+              directly into leadership's decisions on future steps.
             </p>
-                
-            <div class="social-icons d-flex mt-5">
-                <a target="_blank" class="social-icon p-3" href="https://www.linkedin.com/in/bayezid"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg></a>
-                <a target="_blank" class="social-icon p-3" href="https://github.com/bayezidece"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                  </svg></a>
-                <a target="_blank" class="social-icon p-3" href="https://twitter.com/bayezidece"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                  </svg></a>
-                <a target="_blank" class="social-icon p-3" href="https://facebook.com/bayezidece"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg></a>
-            </div>
+          </div>
+
+          <div class="flex flex-wrap gap-2 mt-6">
+            <span class="text-xs px-3 py-1 rounded-full bg-panel border border-rule">Power BI</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-panel border border-rule">SQL Server</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-panel border border-rule">Python</span>
+            <span class="text-xs px-3 py-1 rounded-full bg-panel border border-rule">Django</span>
+          </div>
         </div>
-    </section>
 
-    <hr class="m-0" />
-      <!-- Experience-->
-      <section class="resume" id="experience">
-          <div class="resume-content">
-              <h2 class="mt-3 mb-0 text-uppercase mycolor">Experience</h2>
-              <hr><hr>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mt-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">Manager (Data Analyst)</h3>
-                      <div class="subheading mb-3">NovoTel Limited</div>                      
-<!--                       <p class="my-letter-spacing line-height">
-                        Resolving Disputes with Findings its Root Cause, Develop Reporting Dashboard in Excel, Power BI and SQL Server, Managing Rate Sheets, Revenue Leakage Investigation, Loss Investigation, Least Cost Routing Investigation and Routing Instruction, Troubleshooting and Testing and Feature incorporating in house LCR software and other Adhok Reporting Task etc..  
-                      </p> -->
-                      <ul class="fa-ul mb-0 mt-1 mb-1">
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Data Analysis on various way from various sources Like Power BI, MS Excel, Python, and Databases such as SQL Server etc.
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Making KPI and BI Report & Dashboard using relevant Tools
-                        </li>
-        
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Routing Management, Dispute Management
-                        </li>
-        
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Automate Daily Operations using Python and Other Tools
-                        </li>
-                        <li>
-                            <span class="fa-li"><i class="fas fa-check"></i></span>
-                            Monitoring & Minimizing relevant Leakage & follow up
-                        </li>                
-                      </ul>
-                    <div class="subheading mb-1"><b><i>Project - Brilliant Connect App</i></b></div>
-                      <p>Makes Churn User Report, User Profile Report, Agent Report, Top N User Report, Traffic Report, Geo graphical Report & Regional Report using SQL & Power BI, which help making decision for the future steps</p>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-primary">February 2011 - Present</span></div>
-              </div>
-              
-
-              <div class="d-flex flex-column flex-md-row justify-content-between mt-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0">System Engineer(Commissioning)</h3>
-                      <div class="subheading mb-3">Bee Technologies</div>
-                      <p class="my-letter-spacing line-height">Antenna Optimization, BTS Commissioning, Frequency Measurement using Site Master</p>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-primary">August 2010 - January 2011</span></div>
-              </div>
+        <div class="reveal bg-white border border-rule rounded-2xl p-8 sm:p-10">
+          <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+            <h3 class="font-serif text-2xl font-semibold text-ink">System Engineer, Telecom</h3>
+            <p class="eyebrow text-accent">Aug 2010 &ndash; Jan 2011</p>
           </div>
-      </section>
-      <hr class="m-0" />
-      
-      <!-- Education-->
-      <section class="resume" id="education">
-          <div class="resume-content">
-              <h2 class="mb-0 mt-5 text-uppercase mycolor">Education</h2>
-              <hr><hr>
-              <div class="d-flex flex-column flex-md-row justify-content-between mb-5 mt-5">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0 text-secondary">Presidency University</h3>
-                      <div class="subheading mb-3">Bachelor of Science</div>
-                      <div>Electrical and Electronic Engineering</div>
-                      <p>GPA: 3.65</p>
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-primary">2004 - 2008</span></div>
-              </div>
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0 text-secondary">Dhaka Biggyan College</h3>
-                      <div class="subheading mb-3">Science</div>
-                      
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-primary">2001 - 2003</span></div>
-              </div>
+          <p class="mt-1 text-muted italic">Bee Technologies, Dhaka, Bangladesh</p>
+          <ul class="mt-6 space-y-3 text-body leading-7">
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Base Transceiver Station (BTS) commissioning.</li>
+            <li class="flex gap-3"><i class="fa-solid fa-circle-check text-accent mt-1.5 text-xs"></i>Antenna optimization and collocation.</li>
+          </ul>
+        </div>
 
-              <div class="d-flex flex-column flex-md-row justify-content-between">
-                  <div class="flex-grow-1">
-                      <h3 class="mb-0 text-secondary">Rupasdi Brindaban High School</h3>
-                      <div class="subheading mb-3">Science</div>
-                      
-                  </div>
-                  <div class="flex-shrink-0"><span class="text-primary">Passing Year - 2001</span></div>
-              </div>
-          </div>
-      </section>
-      <hr class="m-0" />
-      
-      <!-- Skills-->
-      <section class="resume" id="skills">
-          <div class="resume-content">
-              <h2 class="mb-0 mt-5 text-uppercase mycolor">Skills</h2>
-                                  
-              <hr><hr>
-              <ul class="fa-ul mb-0 mt-5 mb-5">
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Django
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Python
-                </li>
+      </div>
+    </div>
+  </section>
 
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    Excel - Expert
-                </li>
+  <!-- ============ PROJECTS ============ -->
+  <section id="projects" class="bg-white py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="reveal max-w-2xl">
+        <p class="eyebrow text-accent">Projects</p>
+        <h2 class="mt-3 font-serif text-4xl font-semibold text-ink">Selected Work</h2>
+        <p class="mt-5 text-body leading-8">
+          Built at NovoTel Limited to turn raw telecom and business data into
+          tools leadership and teams actually use.
+        </p>
+      </div>
 
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    PHP - Hypertext Preprocessor
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    CakePHP
-                </li>
+      <div class="mt-12 rounded-2xl bg-panel border border-rule p-8 sm:p-10">
+        <div class="flex flex-wrap items-baseline justify-between gap-x-6 gap-y-1">
+          <h3 class="font-serif text-2xl font-semibold text-ink">Brilliant Connect App</h3>
+          <span class="text-xs px-3 py-1 rounded-full bg-white border border-rule">Power BI &middot; SQL Server</span>
+        </div>
+        <p class="mt-4 text-body leading-7">
+          A single reporting platform giving leadership visibility into churn,
+          traffic, and regional performance.
+        </p>
+        <ul class="mt-5 grid sm:grid-cols-2 lg:grid-cols-4 gap-x-6 gap-y-2 text-sm text-body">
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>Churn User Report</li>
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>User Profile Report</li>
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>Agent Report</li>
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>Top N User Report</li>
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>Traffic Report</li>
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>Geographical Report</li>
+          <li class="flex gap-2"><i class="fa-solid fa-chart-line text-accent mt-1"></i>Regional Report</li>
+        </ul>
+      </div>
 
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    HTML - Hyper Text Markup Language
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    CSS -  Cascading Style Sheets 
-                </li>
-                <li>
-                    <span class="fa-li"><i class="fas fa-check"></i></span>
-                    JavaScript
-                </li>
-                
-                  
-              </ul>
-          </div>
-      </section>
-      <hr class="m-0" />
-      
+      <div class="mt-8 grid sm:grid-cols-2 gap-8">
+        <div class="rounded-2xl bg-white border border-rule p-8">
+          <span class="text-xs px-3 py-1 rounded-full bg-panel border border-rule">Python &amp; SQL</span>
+          <h3 class="mt-5 font-serif text-xl font-semibold text-ink">Reporting Automation Platform</h3>
+          <p class="mt-3 text-body leading-7">
+            Scheduled Python scripts that pull, clean, and reformat recurring
+            SQL reports automatically, removing hours of manual work each week.
+          </p>
+        </div>
+        <div class="rounded-2xl bg-white border border-rule p-8">
+          <span class="text-xs px-3 py-1 rounded-full bg-panel border border-rule">Django &amp; PostgreSQL</span>
+          <h3 class="mt-5 font-serif text-xl font-semibold text-ink">Enterprise Django Platform</h3>
+          <p class="mt-3 text-body leading-7">
+            An internal business application built on Django and PostgreSQL,
+            giving non-technical teams a proper interface instead of raw
+            spreadsheets and SQL access.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
 
+  <!-- ============ SKILLS ============ -->
+  <section id="skills" class="bg-panel py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="reveal max-w-2xl">
+        <p class="eyebrow text-accent">Skills</p>
+        <h2 class="mt-3 font-serif text-4xl font-semibold text-ink">Core Skills &amp; Tools</h2>
+      </div>
 
-      <!-- Technologies & Tools-->
-      <section class="resume" id="technology">
-          <div class="resume-content">
-              <h2 class="mb-0 mt-5 text-uppercase mycolor">Technologies & Tools</h2>
-                                  
-              <hr><hr>
-              <ul class="fa-ul mb-0 mt-5">
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      Power BI Desktop - A Business Inteligence & Data Analysis Tool
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      Excel - Data Visualization & Data Analysis
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      SQL Server
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      MySQL
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      MariaDB
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      MySQL Workbench
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      SQL Server Management Studio
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      GIMP 2
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      INKSCAPE
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      BLENDER(video Editing)
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      Audacity
-                  </li>
-              </ul>
-          </div>
-      </section>
-      <hr class="m-0" />
+      <div class="mt-12 grid lg:grid-cols-2 gap-10">
 
-      <!-- Certificates-->
-      <section class="resume" id="certificates">
-          <div class="resume-content">
-              <h2 class="mb-0 mt-5 text-uppercase mycolor">certificates</h2>
-              <hr><hr>
-              <ul class="fa-ul mb-0 mt-5">
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      Practical Python: Learn Python Basics Step by Step - Python 3  - Issued on Jan 2022
-                  </li>
-                  <li>
-                      <span class="fa-li"><i class="fas fa-check"></i></span>
-                      The Complete 2022 Python Course - Issued on Jan 2022
-                  </li>                        
-              </ul>
-          </div>
-      </section>
-      <hr class="m-0" />
-
-      <!-- Interests-->
-      <section class="resume" id="interests">
-          <div class="resume-content">
-              <h2 class="mb-0 mt-5 text-uppercase mycolor">Interests & Hobbies</h2>
-              <hr><hr>
-              <p class="mt-5 my-letter-spacing line-height">Apart from being a developer or Data Analyst, I enjoy most of the time getting technological knowledge from Internet.</p>
-              <p class="mb-0 my-letter-spacing line-height">I also love Reading Books, Traveling, Playing Cricket, Football & Table Tennis etc.</p>
-          </div>
-      </section>
-      <hr class="m-0" />
-
-
-      <!-- Contacts-->
-      <section class="resume" id="contacts">
-          <div class="resume-content">
-              <h2 class="mb-0 mt-5 text-uppercase mycolor">Contacts</h2>
-              <hr><hr>
-              <!-- <p class="mt-5">House#23, Road#21, Nikunja-2, Khilkhet, Dhaka, Bangladesh-1229.</p> -->
-              <p class="mt-5">Contact Me: <a class="mycolor" href="mailto:bayezidwm@gmail.com">bayezidwm@gmail.com</a></p> 
-
-              <div class="social-icons d-flex mt-5">
-                <a target="_blank" class="social-icon p-3" href="https://www.linkedin.com/in/bayezid"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg></a>
-                <a target="_blank" class="social-icon p-3" href="https://github.com/bayezidece"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
-                  </svg></a>
-                <a target="_blank" class="social-icon p-3" href="https://twitter.com/bayezidece"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-twitter" viewBox="0 0 16 16">
-                    <path d="M5.026 15c6.038 0 9.341-5.003 9.341-9.334 0-.14 0-.282-.006-.422A6.685 6.685 0 0 0 16 3.542a6.658 6.658 0 0 1-1.889.518 3.301 3.301 0 0 0 1.447-1.817 6.533 6.533 0 0 1-2.087.793A3.286 3.286 0 0 0 7.875 6.03a9.325 9.325 0 0 1-6.767-3.429 3.289 3.289 0 0 0 1.018 4.382A3.323 3.323 0 0 1 .64 6.575v.045a3.288 3.288 0 0 0 2.632 3.218 3.203 3.203 0 0 1-.865.115 3.23 3.23 0 0 1-.614-.057 3.283 3.283 0 0 0 3.067 2.277A6.588 6.588 0 0 1 .78 13.58a6.32 6.32 0 0 1-.78-.045A9.344 9.344 0 0 0 5.026 15z"/>
-                  </svg></a>
-                <a target="_blank" class="social-icon p-3" href="https://facebook.com/bayezidece"><svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
-                    <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z"/>
-                  </svg></a>
+        <div class="reveal bg-white border border-rule rounded-2xl p-8">
+          <p class="eyebrow text-muted mb-6">Core Skills</p>
+          <div class="space-y-5">
+            <div class="skill" data-w="100">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">Power BI</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:100%"></div></div>
+            </div>
+            <div class="skill" data-w="100">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">MS Excel</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:100%"></div></div>
+            </div>
+            <div class="skill" data-w="100">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">SQL Server</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:100%"></div></div>
+            </div>
+            <div class="skill" data-w="80">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">PostgreSQL</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:80%"></div></div>
+            </div>
+            <div class="skill" data-w="80">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">MySQL / MariaDB</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:80%"></div></div>
+            </div>
+            <div class="skill" data-w="80">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">Python</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:80%"></div></div>
+            </div>
+            <div class="skill" data-w="80">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">Django</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:80%"></div></div>
+            </div>
+            <div class="skill" data-w="70">
+              <div class="flex justify-between text-sm mb-1.5"><span class="font-medium">Pandas</span></div>
+              <div class="h-1.5 bg-accent2 rounded-full overflow-hidden"><div class="bar-fill h-full bg-accent rounded-full" style="--w:70%"></div></div>
             </div>
           </div>
-      </section>
-      <hr class="m-0" />
-
         </div>
-                
-        
-        <script src="assets/js/resume.min.js"></script>        
-    </body>
+
+        <div class="space-y-8">
+          <div class="reveal bg-white border border-rule rounded-2xl p-8">
+            <p class="eyebrow text-muted mb-4">Other Tools</p>
+            <div class="flex flex-wrap gap-2">
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">DAX</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">Power Query</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">HTML &amp; CSS</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">SSMS</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">pgAdmin</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">MySQL Workbench</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">Docker</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">Linux</span>
+              <span class="text-xs px-3 py-1.5 rounded-full bg-panel border border-rule">Git &amp; GitHub</span>
+            </div>
+          </div>
+
+          <div class="reveal bg-white border border-rule rounded-2xl p-8">
+            <p class="eyebrow text-muted mb-4">Career Snapshot</p>
+            <div class="grid grid-cols-2 gap-6 text-center">
+              <div>
+                <div class="text-2xl font-serif font-semibold text-ink">15+</div>
+                <div class="mt-1 text-xs text-muted">Years</div>
+              </div>
+              <div>
+                <div class="text-2xl font-serif font-semibold text-ink">50+</div>
+                <div class="mt-1 text-xs text-muted">Dashboards</div>
+              </div>
+              <div>
+                <div class="text-2xl font-serif font-semibold text-ink">100+</div>
+                <div class="mt-1 text-xs text-muted">Automations</div>
+              </div>
+              <div>
+                <div class="text-2xl font-serif font-semibold text-ink">M+</div>
+                <div class="mt-1 text-xs text-muted">Records</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ EDUCATION ============ -->
+  <section id="education" class="bg-white py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="reveal max-w-2xl">
+        <p class="eyebrow text-accent">Education</p>
+        <h2 class="mt-3 font-serif text-4xl font-semibold text-ink">Academic Background</h2>
+      </div>
+
+      <div class="mt-10 reveal rounded-2xl bg-panel border border-rule p-8 sm:p-10 max-w-xl">
+        <p class="eyebrow text-accent">2008</p>
+        <h3 class="mt-3 font-serif text-xl font-semibold text-ink">B.Sc. in Electrical &amp; Electronic Engineering</h3>
+        <p class="mt-2 text-body">Presidency University, Dhaka</p>
+        <p class="mt-3 text-sm text-muted">CGPA 3.65 / 4.00</p>
+      </div>
+    </div>
+  </section>
+
+  </main>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="bg-accent text-white py-24">
+    <div class="max-w-6xl mx-auto px-6">
+      <div class="grid lg:grid-cols-[1.2fr_1fr] gap-16 items-center">
+
+        <div class="reveal">
+          <p class="eyebrow text-white/80">Contact</p>
+          <h2 class="mt-3 font-serif text-4xl sm:text-5xl font-semibold leading-tight">
+            Looking for a Senior Data<br/>Analyst or BI Engineer?
+          </h2>
+          <p class="mt-6 text-white/85 leading-8 max-w-lg">
+            Based in Dhaka and open to Senior Data Analyst, BI Engineer, SQL
+            Developer, or Django Developer roles. Reach out directly — no
+            forms, just email or phone.
+          </p>
+
+          <div class="mt-9 flex flex-wrap gap-4">
+            <a href="mailto:bayezidwm@gmail.com" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full bg-white text-accent font-semibold hover:bg-panel transition">
+              <i class="fa-solid fa-envelope"></i> bayezidwm@gmail.com
+            </a>
+            <a href="assets/resume/Bayezid_Resume.pdf" class="inline-flex items-center gap-2 px-7 py-3.5 rounded-full border border-white/40 hover:border-white transition">
+              <i class="fa-solid fa-download"></i> Résumé
+            </a>
+          </div>
+        </div>
+
+        <div class="reveal rounded-2xl bg-white/10 border border-white/20 p-8">
+          <dl class="space-y-5 text-sm">
+            <div class="flex justify-between border-b border-white/20 pb-4">
+              <dt class="text-white/70">Phone</dt>
+              <dd class="text-right">+880 1730-330015</dd>
+            </div>
+            <div class="flex justify-between border-b border-white/20 pb-4">
+              <dt class="text-white/70">Location</dt>
+              <dd>Dhaka, Bangladesh</dd>
+            </div>
+            <div class="flex justify-between border-b border-white/20 pb-4">
+              <dt class="text-white/70">LinkedIn</dt>
+              <dd><a href="https://www.linkedin.com/in/bayezid/" target="_blank" rel="noopener" class="hover:underline">/in/bayezid</a></dd>
+            </div>
+            <div class="flex justify-between border-b border-white/20 pb-4">
+              <dt class="text-white/70">GitHub</dt>
+              <dd><a href="https://github.com/bayezidece" target="_blank" rel="noopener" class="hover:underline">github.com/bayezidece</a></dd>
+            </div>
+            <div class="flex justify-between">
+              <dt class="text-white/70">Website</dt>
+              <dd><a href="https://bayezidece.github.io/" target="_blank" rel="noopener" class="hover:underline">bayezidece.github.io</a></dd>
+            </div>
+          </dl>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-ink text-white/60">
+    <div class="max-w-6xl mx-auto px-6 py-8 flex flex-col sm:flex-row justify-between items-center gap-4 eyebrow">
+      <span class="font-normal normal-case">© <span id="year"></span> Md. Bayezid Alam — Senior Data Analyst &amp; BI Engineer</span>
+      <div class="flex items-center gap-5 font-normal normal-case">
+        <a href="https://bayezidece.github.io/" target="_blank" rel="noopener" class="hover:text-white transition">bayezidece.github.io</a>
+        <a href="https://github.com/bayezidece" target="_blank" rel="noopener" class="hover:text-white transition">github.com/bayezidece</a>
+        <a href="https://www.linkedin.com/in/bayezid/" target="_blank" rel="noopener" class="hover:text-white transition">LinkedIn</a>
+      </div>
+    </div>
+  </footer>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+
+    const menuBtn = document.getElementById('menuBtn');
+    const mobileMenu = document.getElementById('mobileMenu');
+    menuBtn.addEventListener('click', () => mobileMenu.classList.toggle('hidden'));
+    mobileMenu.querySelectorAll('a').forEach(a => a.addEventListener('click', () => mobileMenu.classList.add('hidden')));
+
+    const io = new IntersectionObserver((entries) => {
+      entries.forEach(e => {
+        if (e.isIntersecting) {
+          e.target.classList.add('in');
+          if (e.target.classList.contains('skill')) {
+            const bar = e.target.querySelector('.bar-fill');
+            if (bar) bar.classList.add('filled');
+          }
+          io.unobserve(e.target);
+        }
+      });
+    }, { threshold: 0.2 });
+
+    document.querySelectorAll('.reveal, .skill').forEach(el => io.observe(el));
+  </script>
+
+</body>
 </html>
